@@ -3,11 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/webbanthucanchomeo/css/login.css">
+	<link rel="stylesheet" href="/css/login.css">
 	<title>Login</title>
 </head>
 <body>
-	<script src="/webbanthucanchomeo/js/login.js"></script>
 	<div class="cont_principal">
 
 		<div class="cont_centrar">
@@ -45,8 +44,7 @@
 		  </div>
 		  
 		</div>
-		
-	  
 	  </div>
+	  <script src="/js/login.js"></script>
 </body>
 </html>

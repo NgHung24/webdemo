@@ -34,7 +34,7 @@
     <!-- header section strats -->
     <header class="header_section">
       <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <span>
             
           </span>
@@ -43,28 +43,24 @@
           <span class=""></span>
         </button>
 
-        <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav  ">
-            <li class="nav-item ">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">
+              <a class="nav-link" href="shop.php">
                 Shop
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="why.html">
-                Why Us
-              </a>
-            </li>
+            
             
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="contact.php">Contact Us</a>
             </li>
           </ul>
           <div class="user_option">
-            <a href="/webbanthucanchomeo/login.html">
+            <a href="login.php">
               <i class="fa fa-user" aria-hidden="true"></i>
               <span>
                 Login
@@ -83,9 +79,367 @@
       </nav>
     </header>
     <!-- end header section -->
+    <!-- slider section -->
 
+    <section class="slider_section">
+      <div class="slider_container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Welcome To Our <br>
+                        Pets Shop
+                      </h1>
+                      <p>
+                        At Pets Shop, we take pride in being your trusted source for quality cat food. Caring for your cat is not just a duty but a passion for us, with diversity and convenience as our top priorities.
+                      </p>
+                      <a href="contact.php">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-5 ">
+                    <div class="img-box">
+                      <img src="images/logodephon.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Welcome To Our <br>
+                        Pets Shop
+                      </h1>
+                      <p>
+                        Beyond providing products, we are building a pet-loving community. Here, you'll find not only the best products but also a solid source of information and support for caring for your pets.
+                      </p>
+                      <a href="contact.php">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-5 ">
+                    <div class="img-box">
+                      <img src="images/anhmeoan.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Welcome To Our <br>
+                        Pets Shop
+                      </h1>
+                      <p>
+                        Pets Shop is not just a shopping destination; it's a reliable partner. We carefully select high-quality products to ensure each meal is an optimal nutritional experience, helping your cat grow healthy and happy.
+                      </p>
+                      <a href="contact.php">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-5 ">
+                    <div class="img-box">
+                      <img src="images/bacondangan.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel_btn-box">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <img src="images/line.png" alt="" />
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end slider section -->
   </div>
   <!-- end hero area -->
+
+  <!-- shop section -->
+
+  <section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Latest Products
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thucanchomeo.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Ring
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $200
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  Hot
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thucanchomeo8.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Watch
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $300
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thuanchomeo1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Teddy Bear
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $110
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thucanchomeo2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Flower Bouquet
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $45
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thucanchomeo3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Teddy Bear
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $95
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thucanchomeo4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Flower Bouquet
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $70
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thucanchomeo5.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Watch
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $400
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/thucanchomeo6.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Ring
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $450
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="shop.php">
+          View All Products
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end shop section -->
+
+  <!-- saving section -->
+
+  <section class="saving_section ">
+    <div class="box">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="img-box">
+              <img src="images/bannermeoxinhon.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>
+                  Happy Pets  <br>
+                      Happy Family
+                </h2>
+              </div>
+              <p>
+                At Pets Shop, we prioritize the quality of nutrition for your cat. Our selection of high-quality and diverse cat food options is here to assist you in providing the best care for your feline friend.
+              </p>
+              <div class="btn-box">
+                <a href="shop.php" class="btn1">
+                  Buy Now
+                </a>
+                <a href="#" class="btn2">
+                  See More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end saving section -->
 
   <!-- why section -->
 
@@ -327,7 +681,7 @@
                 Best Quality
               </h5>
               <p>
-                Premium products for your pet's best life. 
+                Premium products for your pet's best life.
               </p>
             </div>
           </div>
@@ -338,20 +692,121 @@
 
   <!-- end why section -->
 
+
+  <!-- gift section -->
+
+  <section class="gift_section layout_padding-bottom">
+    <div class="box ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="img_container">
+              <div class="img-box">
+                <img src="images/meobentrai.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>
+                  Perfect Nutrition <br>
+                  Excellent Health
+                </h2>
+              </div>
+              <p>
+                Our team of experts is ready to assist with any questions about cat nutrition, health and care. We not only sell products, but also bring peace of mind and knowledge to you.
+              </p>
+              <div class="btn-box">
+                <a href="shop.php" class="btn1">
+                  Buy Now
+                </a>
+                <a href="#" class="btn2">
+                  See More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end gift section -->
+
+
+  <!-- contact section -->
+
+  <section class="contact_section ">
+    <div class="container px-0">
+      <div class="heading_container ">
+        <h2 class="">
+          Contact Us
+        </h2>
+      </div>
+    </div>
+    <div class="container container-bg">
+      <div class="row">
+        <div class="col-lg-7 col-md-6 px-0">
+          <div class="map_container">
+            <div class="map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7457.755738118346!2d105.8702396!3d20.8366377!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1703522238374!5m2!1svi!2s" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5 px-0">
+          <form action="#">
+            <div>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div>
+              <input type="text" placeholder="Phone" />
+            </div>
+            <div>
+              <input type="text" class="message-box" placeholder="Message" />
+            </div>
+            <div class="d-flex ">
+              <button>
+                SEND
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- client section -->
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+       
+      </div>
+    </div>
+  </section>
+  <!-- end client section -->
+
   <!-- info section -->
 
   <section class="info_section  layout_padding2-top">
     <div class="social_container">
       <div class="social_box">
-        <a href="https://www.facebook.com/pahahtahh">
+        <a href="https://www.facebook.com/pahahtahh" target="_blank">
           <i class="fa fa-facebook" aria-hidden="true"></i>
         </a>
-        <a href="https://twitter.com/pahahtahh_">
+        <a href="https://twitter.com/pahahtahh_" target = "_blank">
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </a>
-        <a href="https://www.instagram.com/pahntan_/">
+        <a href="https://www.instagram.com/pahntan_/" target = "_blank">
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
+        
       </div>
     </div>
     <div class="info_container ">
@@ -368,7 +823,7 @@
               <a href="">
                 <span> Rules Privacy Policy </span>
               </a>
-              <a href="/webbanthucanchomeo/shop.html">
+              <a href="shop.php">
                 <span> Flash Sales </span>
               </a>
               <a href="">

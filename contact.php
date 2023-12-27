@@ -34,7 +34,7 @@
     <!-- header section strats -->
     <header class="header_section">
       <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <span>
             
           </span>
@@ -46,25 +46,21 @@
         <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
           <ul class="navbar-nav  ">
             <li class="nav-item ">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">
+              <a class="nav-link" href="shop.php">
                 Shop
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="why.html">
-                Why Us
-              </a>
-            </li>
+           
             
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="contact.php">Contact Us</a>
             </li>
           </ul>
           <div class="user_option">
-            <a href="/webbanthucanchomeo/login.html">
+            <a href="login.php">
               <i class="fa fa-user" aria-hidden="true"></i>
               <span>
                 Login
@@ -138,13 +134,13 @@
   <section class="info_section  layout_padding2-top">
     <div class="social_container">
       <div class="social_box">
-        <a href="https://www.facebook.com/pahahtahh">
+      <a href="https://www.facebook.com/pahahtahh" target="_blank">
           <i class="fa fa-facebook" aria-hidden="true"></i>
         </a>
-        <a href="https://twitter.com/pahahtahh_">
+        <a href="https://twitter.com/pahahtahh_" target = "_blank">
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </a>
-        <a href="https://www.instagram.com/pahntan_/">
+        <a href="https://www.instagram.com/pahntan_/" target = "_blank">
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
       </div>
@@ -163,7 +159,7 @@
               <a href="">
                 <span> Rules Privacy Policy </span>
               </a>
-              <a href="/webbanthucanchomeo/shop.html">
+              <a href="shop.php">
                 <span> Flash Sales </span>
               </a>
               <a href="">
